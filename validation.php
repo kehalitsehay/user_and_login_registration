@@ -16,7 +16,7 @@ session_start();
 
   if ($num == 1){
     $_SESSION['username'] = $username;
-    header('Location:index.php');
+    header('Location:index.html');
   } else{
     header('Location:login.php');
     //$wpass="You have entered wrong password";
