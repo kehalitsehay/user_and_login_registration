@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-  header('location: login.php');
+  header('location: index.html');
 
   $con = mysqli_connect('localhost', 'root',);
   mysqli_select_db($con, 'registrationform');
